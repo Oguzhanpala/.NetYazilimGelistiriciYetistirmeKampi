@@ -27,7 +27,7 @@ public class BrandsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult Get(int id) 
+    public IActionResult Get() 
     {
         return Ok(_brandService.GetAll());
     }
